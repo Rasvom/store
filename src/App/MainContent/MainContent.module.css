@@ -1,0 +1,48 @@
+.menu {
+  width: 300px;
+}
+.maincontent {
+  display: flex;
+}
+img {
+  width: 200px;
+}
+li {
+  list-style-type: none;
+}
+a {
+  padding: 15px;
+  white-space: nowrap;
+}
+.buybutton {
+  background-color: #0b6efc;
+  padding: 10px 60px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+.prices {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px 0 20px;
+}
+.product{
+    padding: 7px;
+    text-align: center;
+}
+.products {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.price{
+font-weight: 600;
+}
+.discount{
+    text-decoration: line-through;
+    font-weight: 100;
+    color: gray;
+}
+.title{
+    color: gray;
+}
