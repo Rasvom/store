@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./MainContent.module.css"
+import styles from "./MainContent.module.css";
 const Menu = () => {
   return (
     <div className={styles.menu}>
@@ -7,11 +7,11 @@ const Menu = () => {
         <li>
           <a>Гаджеты и аксессуары</a>
         </li>
-        <hr/>
+        <hr />
         <li>
           <a>Бытовая техника</a>
         </li>
-        <hr/>
+        <hr />
         <li>
           <a>Прочее</a>
         </li>

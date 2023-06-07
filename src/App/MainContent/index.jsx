@@ -10,7 +10,7 @@ const MainContent = () => {
       <Menu />
       <div className={styles.products}>
         {products.map((item) => {
-          return <Product {...item} />;
+          return <Product key={item.id} {...item} />;
         })}
       </div>
     </div>
